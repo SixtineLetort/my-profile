@@ -1,0 +1,136 @@
+body {
+	background-color: #E1E7ED;
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	color: #0B1123;
+	text-align: justify;
+}
+
+h1 {
+	color: #617C98;
+	font-family: Raleway;
+	letter-spacing: 20px;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+h2 {
+	color: #92A7BC;
+	font-family: Raleway;
+	text-align: center;
+
+}
+
+h3 {
+	color: #0B1123;
+	font-family: Raleway;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul {
+	font-size: 50px;
+	text-align: center;
+}
+
+a {
+	color: #92A7BC;
+	line-height: 80px;
+}
+
+a:hover {
+  color: #0B1123;
+  text-decoration: none;
+}
+
+img {
+	border: 5px solid #92A7BC;
+	border-radius: 50%;
+	height: 180px;
+	margin: 30px 30px 30px 350px; 
+}
+
+div {
+	background: white;
+	padding: 35px;
+	margin: 5px 30px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.inline {
+	list-style:none;
+	display:inline;
+	margin-right:10px;
+}
+
+.container {
+	widows: 700px;
+	margin: 40px auto;
+}
+
+.btn-blue {
+	background-color: #92A7BC;
+	color: white;
+	padding: 20px 10px;
+	margin: 30px;
+	display:block;
+	width:350px;
+	line-height:30px;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	display: inline-block;
+	
+}
+
+.btn-blue:hover {
+	background-color: #0B1123;
+	color : #92A7BC;
+}
+
+.card-white {
+	background-color: white;
+}
+
+#introduction {
+	background-color: #E1E7ED;
+}
+
+#footer {
+	background-color: #E1E7ED;
+}
+
+@media (max-width: 960px) {
+	.container {
+		widows: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
